@@ -27,16 +27,6 @@ div.background {
     	z-index: -100;
 }
 
-header {
-	padding: 5px; 
-	background: #B179F1; 
-	color: #fff; 
-	position: fixed; 
-	width: 100%; 
-	top: 0;
-	border: solid 1px #fff;
-}
-
 /*TIME CONFIG*/
 #time {
 	color: #fff;
@@ -94,6 +84,97 @@ form div.search input.searchText {
 ::placeholder {
 	color: #D1D1D1;
 }
+
+/*BOOKMARK CONFIG*/
+#bookmark {
+	margin-top: 1%;
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+#crunch {
+	margin-left: 10px;
+	cursor: pointer;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+#crunch:hover {
+	box-shadow: 3px 3px 10px #00000030;
+    -webkit-box-shadow: 3px 3px 5px #00000030;
+    -moz-box-shadow: 3px 3px 5px #00000030;
+	border: solid 1px #00000000;
+	border-radius: 6px;
+	background-color: #ffffff;
+}
+
+#crBg {
+	width: 80px;
+}
+
+#youtube {
+	margin-left: 10px;
+	cursor: pointer;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+#youtube:hover {
+	box-shadow: 3px 3px 10px #00000030;
+    -webkit-box-shadow: 3px 3px 5px #00000030;
+    -moz-box-shadow: 3px 3px 5px #00000030;
+	border: solid 1px #00000000;
+	border-radius: 6px;
+	background-color: #ffffff;
+}
+
+#ytbBg {
+	width: 80px;
+}
+
+#twitch {
+	margin-left: 10px;
+	cursor: pointer;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+#twitch:hover {
+	box-shadow: 3px 3px 10px #00000030;
+    -webkit-box-shadow: 3px 3px 5px #00000030;
+    -moz-box-shadow: 3px 3px 5px #00000030;
+	border: solid 1px #00000000;
+	border-radius: 6px;
+	background-color: #ffffff;
+}
+
+#twBg {
+	width: 80px;
+}
+
+/*#youtube {
+	height: 80px;
+	display: inline;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#twitch {
+	height: 59px;
+	margin-left: 10px;
+	margin-right: auto;
+	margin-bottom: 11px;
+}*/
 
 /*FOOTER CONFIG*/
 footer {

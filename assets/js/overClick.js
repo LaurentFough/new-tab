@@ -13,14 +13,17 @@ function click() {
 }
 
 function over() {
-        doc = document.getElementById("search");
-        doc.style.borderStyle = "none";
-        doc.style.boxShadow = "3px 3px 10px #00000030";
-        doc.style.webkitBoxShadow = "3px 3px 5px #00000030";
-        doc.style.mozBoxShadow = "3px 3px 5px #00000030";
+	doc = document.getElementById("search");
+	doc.style.borderStyle = "none";
+	doc.style.boxShadow = "3px 3px 10px #00000030";
+	doc.style.webkitBoxShadow = "3px 3px 5px #00000030";
+	doc.style.mozBoxShadow = "3px 3px 5px #00000030";
 }
 
 document.getElementById("bg").onclick = clickRestore;
+document.getElementById("bookmark").onclick = clickRestore;
+document.getElementById("foo").onclick = clickRestore;
+document.getElementById("time").onclick = clickRestore;
 document.getElementById("search").onmouseleave = overRestore;
 
 function clickRestore() {
