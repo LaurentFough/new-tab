@@ -19,12 +19,15 @@ body {
     outline: none;
 }
 
-div.background {
-        color: #999999;
-    	position: fixed;
-    	top: 0;
-    	left: 0;
-    	z-index: -100;
+#bg {
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	overflow: auto;
+	top: 0;
+	left: 0;
+	background: url("https://wallpaperplay.com/walls/full/0/2/3/57065.jpg") center center / cover no-repeat fixed;
 }
 
 /*TIME CONFIG*/
@@ -97,6 +100,7 @@ form div.search input.searchText {
 }
 
 #crunch {
+	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 	margin-left: 10px;
 	cursor: pointer;
 	display: flex;
@@ -106,12 +110,12 @@ form div.search input.searchText {
 }
 
 #crunch:hover {
-	box-shadow: 3px 3px 10px #00000030;
-    -webkit-box-shadow: 3px 3px 5px #00000030;
-    -moz-box-shadow: 3px 3px 5px #00000030;
-	border: solid 1px #00000000;
-	border-radius: 6px;
-	background-color: #ffffff;
+	background-color: #fff;
+	border-top-left-radius: 10px;
+	border-radius: 10px;
+	animation-name: hover;
+	animation-duration: 0.25s;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
 #crBg {
@@ -119,6 +123,7 @@ form div.search input.searchText {
 }
 
 #youtube {
+	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 	margin-left: 10px;
 	cursor: pointer;
 	display: flex;
@@ -128,12 +133,12 @@ form div.search input.searchText {
 }
 
 #youtube:hover {
-	box-shadow: 3px 3px 10px #00000030;
-    -webkit-box-shadow: 3px 3px 5px #00000030;
-    -moz-box-shadow: 3px 3px 5px #00000030;
-	border: solid 1px #00000000;
-	border-radius: 6px;
-	background-color: #ffffff;
+	background-color: #fff;
+	border-top-left-radius: 10px;
+	border-radius: 10px;
+	animation-name: hover;
+	animation-duration: 0.25s;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
 #ytbBg {
@@ -141,6 +146,7 @@ form div.search input.searchText {
 }
 
 #twitch {
+	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 	margin-left: 10px;
 	cursor: pointer;
 	display: flex;
@@ -150,31 +156,17 @@ form div.search input.searchText {
 }
 
 #twitch:hover {
-	box-shadow: 3px 3px 10px #00000030;
-    -webkit-box-shadow: 3px 3px 5px #00000030;
-    -moz-box-shadow: 3px 3px 5px #00000030;
-	border: solid 1px #00000000;
-	border-radius: 6px;
-	background-color: #ffffff;
+	background-color: #fff;
+	border-top-left-radius: 10px;
+	border-radius: 10px;
+	animation-name: hover;
+	animation-duration: 0.25s;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
 #twBg {
 	width: 80px;
 }
-
-/*#youtube {
-	height: 80px;
-	display: inline;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-#twitch {
-	height: 59px;
-	margin-left: 10px;
-	margin-right: auto;
-	margin-bottom: 11px;
-}*/
 
 /*FOOTER CONFIG*/
 footer {
