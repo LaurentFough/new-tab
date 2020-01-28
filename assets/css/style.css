@@ -55,7 +55,7 @@ div.search {
 	background-color: #00000030;
 	border: solid 1px #fff;
 	border-radius: 6px;
-	width: 500px;
+	width: 480px;
 	height: 40px;
 	margin: auto;
 	margin-top: 20%;
@@ -81,7 +81,7 @@ form div.search input.searchText {
   	font-size:18px;
   	border:none;
   	height:32px;
-  	width:430px;
+  	width:400px;
 }
 
 ::placeholder {
