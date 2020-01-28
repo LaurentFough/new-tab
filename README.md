@@ -3,7 +3,7 @@ Minha "Nova guia" do Chrome!
 
 ## Preview
 
-![Preview](https://raw.githubusercontent.com/Tur1st4/new-tab/master/assets/img/preview.png)
+![Preview](https://github.com/Tur1st4/new-tab/blob/master/assets/img/prev.png)
 
 ## Usar a página na "Nova guia"
 
