@@ -27,7 +27,7 @@ body {
 	overflow: auto;
 	top: 0;
 	left: 0;
-	background: url("https://wallpaperplay.com/walls/full/0/2/3/57065.jpg") center center / cover no-repeat fixed;
+	background: url("/assets/img/bg.jpg") center center / cover no-repeat fixed;
 }
 
 /*TIME CONFIG*/
