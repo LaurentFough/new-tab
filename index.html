@@ -17,47 +17,58 @@
 	<!--PAGE TITLE CONFIG-->
 	<title>My home</title>
 	<link rel="icon" href="assets/img/iron-man-icon.png">
+
+	<!--NOSCRIPT ALERT-->
+<noscript>
+	<style>
+		.content {
+			display: none;
+		}
+	</style>
+</noscript>
 </head>
 
 <body>
-	<div id="bg">
+	<div class="content">
+		<div id="bg">
+		</div>
+
+		<div id="time">
+			<img src="https://cdn2.iconfinder.com/data/icons/time-46/512/25_time_clock_alarm-512.png">
+		</div>
+
+		<!--SEARCH BAR-->
+		<form action="https://google.com/search" method="GET">
+			<div class="search" id="search">
+				<input class="searchText" name="q" placeholder="Pesquise algo legal..." />
+				<input class="searchButton" src="https://img.icons8.com/pastel-glyph/2x/search--v2.png" type="image"
+					alt="Search" />
+			</div>
+		</form>
+
+		<!--BOOKMARK-->
+		<div id="bookmark">
+			<div id="crunch">
+				<img id="crBg" src="assets/img/crunchyroll.png"></img>
+			</div>
+			<div id="youtube">
+				<img id="ytbBg" src="assets/img/youtube.png"></img>
+			</div>
+			<div id="twitch">
+				<img id="twBg" src="assets/img/twitch.png"></img>
+			</div>
+		</div>
+
+		<!--FOOTER CONFIG-->
+		<footer id="foo">
+			<p>&reg; Created by Tur1st4</p>
+		</footer>
+
+		<!--SCRIPT IMPORT-->
+		<script src="assets/js/overClick.js"></script>
+		<script src="assets/js/getHour.js"></script>
+		<script src="assets/js/clickBook.js"></script>
 	</div>
-
-	<div id="time">
-		<img src="https://cdn2.iconfinder.com/data/icons/time-46/512/25_time_clock_alarm-512.png">
-	</div>
-
-	<!--SEARCH BAR-->
-	<form action="https://google.com/search" method="GET">
-		<div class="search" id="search">
-			<input class="searchText" name="q" placeholder="Pesquise algo legal..." />
-			<input class="searchButton" src="https://img.icons8.com/pastel-glyph/2x/search--v2.png" type="image"
-				alt="Search" />
-		</div>
-	</form>
-
-	<!--BOOKMARK-->
-	<div id="bookmark">
-		<div id="crunch">
-			<img id="crBg" src="assets/img/crunchyroll.png"></img>
-		</div>
-		<div id="youtube">
-			<img id="ytbBg" src="assets/img/youtube.png"></img>
-		</div>
-		<div id="twitch">
-			<img id="twBg" src="assets/img/twitch.png"></img>
-		</div>
-	</div>
-
-	<!--FOOTER CONFIG-->
-	<footer id="foo">
-		<p>&reg; Created by Tur1st4</p>
-	</footer>
-
-	<!--SCRIPT IMPORT-->
-	<script src="assets/js/overClick.js"></script>
-	<script src="assets/js/getHour.js"></script>
-	<script src="assets/js/clickBook.js"></script>
 </body>
 
 
