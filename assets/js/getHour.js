@@ -1,4 +1,4 @@
-setInterval(async function () {
+setInterval(function () {
 	date = new Date();
 	hour = date.getHours();
 	minutes = date.getMinutes();
@@ -18,4 +18,3 @@ setInterval(async function () {
 	doc.style.webkitTextShadow = "2px 2px 5px #00000047";
 	doc.style.mozTextShadow = "2px 2px 5px #00000047";
 }, 1000);
-

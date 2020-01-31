@@ -91,25 +91,30 @@ form div.search input.searchText {
 
 /*BOOKMARK CONFIG*/
 #bookmark {
-	margin-top: 1%;
-	width: 100%;
+	width: 25%;
+  padding: 0;
+  list-style-type: none;
 	height: auto;
+	margin-top: 1%;
+  margin-left: auto;
+  margin-right: auto;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
 }
 
-#crunch {
+#crunch, #youtube, #icons8 {
 	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 	cursor: pointer;
+	list-style: none;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
 }
 
-#crunch:hover {
+#crunch:hover, #youtube:hover, #icons8:hover {
 	background-color: #fff;
 	border-top-left-radius: 10px;
 	border-radius: 10px;
@@ -118,51 +123,7 @@ form div.search input.searchText {
 	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
-#crBg {
-	width: 80px;
-}
-
-#youtube {
-	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-	cursor: pointer;
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
-}
-
-#youtube:hover {
-	background-color: #fff;
-	border-top-left-radius: 10px;
-	border-radius: 10px;
-	animation-name: hover;
-	animation-duration: 0.25s;
-	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-}
-
-#ytbBg {
-	width: 80px;
-}
-
-#icons8 {
-	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-	cursor: pointer;
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
-}
-
-#icons8:hover {
-	background-color: #fff;
-	border-top-left-radius: 10px;
-	border-radius: 10px;
-	animation-name: hover;
-	animation-duration: 0.25s;
-	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-}
-
-#i8Bg {
+#crBg, #ytbBg, #i8Bg {
 	width: 80px;
 }
 

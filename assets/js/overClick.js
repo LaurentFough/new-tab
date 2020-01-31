@@ -1,7 +1,6 @@
+clicked = null;
 document.getElementById("search").onclick = click;
 document.getElementById("search").onmouseover = over;
-
-clicked = null;
 
 function click() {
 	clicked = true;
