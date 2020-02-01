@@ -20,7 +20,6 @@ function over() {
 }
 
 document.getElementById("bg").onclick = clickRestore;
-document.getElementById("bookmark").onclick = clickRestore;
 document.getElementById("foo").onclick = clickRestore;
 document.getElementById("time").onclick = clickRestore;
 document.getElementById("search").onmouseleave = overRestore;
